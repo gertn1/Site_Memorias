@@ -3,24 +3,34 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Image Upload</title>
+  <title>Memórias Fortaleza</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1>Image Upload</h1>
+
+  <header class="navbar">
+    <nav>
+        <a href="#">Trabalho Projeto aplicaco de desenvolvimentp de software- Etapa 2.</a></li>
+    </nav>
+  </header>
+  <h1>Memórias Fortaleza</h1>
 
   <form id="uploadForm" enctype="multipart/form-data">
-    <label for="imageInput">Choose an image:</label>
+    <label for="imageInput">Escolha uma imagem:</label>
     <input type="file" id="imageInput" name="image" accept="image/*" required>
 
-    <label for="commentInput">Add a comment:</label>
+    <label for="commentInput">Adicionar comentario:</label>
     <input type="text" id="commentInput" name="comment">
 
-    <button type="submit">Upload Image</button>
+    <button type="submit">Publicar</button>
   </form>
 
   <div id="imageList"></div>
 
   <script src="script.js"></script>
+
+  <footer class="footer">
+    <p>&copy; Projeto aplicaco de desenvolvimentp de software - Etapa 2. </p>
+  </footer> 
 </body>
 </html>
